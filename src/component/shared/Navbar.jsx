@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
             <button
               type="button"
-              className="text-sm font-semibold text-white bg-pink-600 hover:bg-pink-700 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm hover:shadow transition-all cursor-pointer transform hover:-translate-y-0.5 active:translate-y-0"
+              className="text-sm font-semibold text-white bg-brand-gradient hover:opacity-95 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm hover:shadow transition-all cursor-pointer transform hover:-translate-y-0.5 active:translate-y-0"
             >
               Sign Up
             </button>
@@ -90,5 +90,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
